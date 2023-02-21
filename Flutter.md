@@ -130,4 +130,13 @@ class _LoginDemoState extends State<LoginDemo> {
   }
 }
 
+
 ~~~~
+
+# Question base on Given Code
+
+## Why use extend Keyword this code ?
+You can inherit from or extend a class using the extends keyword. This allows you share properties and methods between classes that are similar, but not exactly the same.
+
+##
+
