@@ -143,3 +143,9 @@ You can inherit from or extend a class using the extends keyword. This allows yo
 
 ## Why use BuildContext ?
 BuildContext is a locator that is used __to track each widget in a tree and locate them and their position in the tree__. The BuildContext of each widget is passed to their build method. Remember that the build method returns the widget tree a widget renders. Each BuildContext is unique to a widget.
+
+## Why use createState() => _SomeWidgetState();
+Creates the __mutable state for this widget at a given location in the tree__. Subclasses should override this method to return a newly created instance of their associated State subclass: 
+```
+@override State<SomeWidget> createState() => _SomeWidgetState();
+```
