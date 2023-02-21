@@ -138,5 +138,8 @@ class _LoginDemoState extends State<LoginDemo> {
 ## Why use extend Keyword this code ?
 You can inherit from or extend a class using the extends keyword. This allows you share properties and methods between classes that are similar, but not exactly the same.
 
-##
+## why use overide methods ?
+`@override` just points out that the function is also defined in an ancestor class, but is being redefined to do something else in the current class. It's also used to annotate the implementation of an abstract method. It is optional to use but recommended as it improves readability.
 
+## Why use BuildContext ?
+BuildContext is a locator that is used __to track each widget in a tree and locate them and their position in the tree__. The BuildContext of each widget is passed to their build method. Remember that the build method returns the widget tree a widget renders. Each BuildContext is unique to a widget.
